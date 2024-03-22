@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:id="@+id/view7"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#3F48CC"
+        android:backgroundTint="#3F48CC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#3F48CC"
+            android:backgroundTint="#3F48CC"
+            android:contentDescription="@string/go"
+            app:tint="@color/white"
+            app:srcCompat="?attr/actionModeCloseDrawable"
+            tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:paddingStart="170dp"
+            android:paddingTop="10dp"
+            android:text="@string/page111"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            tools:ignore="RtlSymmetry">
+
+        </TextView>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/hi"
+        android:paddingTop="50dp"
+        tools:ignore="UselessLeaf"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="32dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="25dp"
+            android:paddingTop="25dp"
+            android:paddingEnd="25dp">
+
+
+            <LinearLayout
+                android:id="@+id/idanim"
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent"
+                android:background="#EFECEC"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                android:paddingTop="40dp"
+                android:paddingRight="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:orientation="vertical">
+
+                    <TextView
+
+                        android:id="@+id/textView10"
+                        android:layout_width="359dp"
+                        android:layout_height="118dp"
+                        android:text="@string/flag_discussion_whatsapp"
+                        android:textColor="#2979FF"
+                        android:textSize="30sp"
+                        tools:ignore="TextSizeCheck" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:paddingEnd="20dp"
+                        android:text="@string/encardreur"
+                        android:textColor="#607D8B"
+                        android:textSize="15sp"
+                        tools:ignore="RtlSymmetry,TextSizeCheck,VisualLintLongText" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="117dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="168dp"
+                        android:layout_height="61dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/rect"
+                        android:text="@string/more"
+                        android:textColor="@color/blue"
+                        tools:ignore="VisualLintButtonSize" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton2"
+                        style="@style/Widget.AppCompat.ImageButton"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/cercle"
+                        android:backgroundTint="@color/blue"
+                        android:contentDescription="@string/he"
+                        app:tint="@color/white"
+                        app:srcCompat="@drawable/whatsapp"
+                        tools:ignore="DuplicateSpeakableTextCheck" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="334dp"
+                android:background="@drawable/student111" />
+
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="378dp"
+                android:layout_height="149dp"
+                android:paddingStart="50dp"
+                android:paddingTop="60dp"
+                android:text="@string/go"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                tools:ignore="RtlSymmetry" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"/>
+           <!-- <LinearLayout
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/lineargo1"
+                    android:layout_width="match_parent"
+                    android:layout_height="565dp"
+                    android:orientation="vertical"
+                    android:paddingTop="6dp"
+                    tools:ignore="VisualLintBounds"
+                    tools:layout_editor_absoluteX="-3dp"
+                    tools:layout_editor_absoluteY="275dp">
+
+                    <FrameLayout
+                        android:layout_width="321dp"
+                        android:layout_height="321dp">
+
+                        <ImageView
+                            android:id="@+id/imageView2"
+                            android:layout_width="315dp"
+                            android:layout_height="267dp"
+                            android:background="@drawable/young"
+                            android:contentDescription="@string/tod" />
+
+                        <LinearLayout
+                            android:id="@+id/view9"
+                            android:layout_width="266dp"
+                            android:layout_height="157dp"
+                            android:layout_below="@id/imageView2"
+                            android:layout_gravity="bottom"
+                            android:layout_marginStart="20dp"
+                            android:background="@color/red2"
+                            android:orientation="vertical"
+                            android:paddingStart="40sp"
+                            tools:ignore="ObsoleteLayoutParam,RtlSymmetry">
+
+                            <TextView
+                                android:id="@+id/textView2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="63dp"
+                                android:text="@string/intitule"
+                                android:textColor="@color/white"
+                                android:textSize="30sp" />
+
+                            <TextView
+                                android:id="@+id/textView7"
+                                android:layout_width="196dp"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:text="@string/title"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic"
+                                tools:ignore="TextSizeCheck" />
+
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:id="@+id/text"
+                        android:layout_width="match_parent"
+                        android:layout_height="159dp"
+                        android:paddingStart="10dp"
+                        android:paddingTop="15dp"
+                        android:paddingEnd="20dp">
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="320dp"
+                            android:layout_height="146dp"
+                            android:text="@string/texte"
+                            android:textAlignment="center"
+                            android:textColor="#292727"
+                            android:textSize="20sp"
+                            android:textStyle="italic"
+                            tools:ignore="TextSizeCheck" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/learn"
+                        android:layout_width="324dp"
+                        android:layout_height="32dp"
+                        android:paddingStart="100dp"
+                        tools:ignore="RtlSymmetry">
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/learnmore"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            tools:ignore="TextSizeCheck,VisualLintBounds" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lineargo2"
+                    android:layout_width="match_parent"
+                    android:layout_height="565dp"
+                    android:orientation="vertical"
+                    android:paddingTop="6dp"
+                    tools:ignore="VisualLintBounds"
+                    tools:layout_editor_absoluteX="-3dp"
+                    tools:layout_editor_absoluteY="275dp">
+
+                    <FrameLayout
+                        android:layout_width="321dp"
+                        android:layout_height="321dp">
+
+                        <ImageView
+                            android:id="@+id/imageViewchap2"
+                            android:layout_width="315dp"
+                            android:layout_height="267dp"
+                            android:background="@drawable/young"
+                            android:contentDescription="@string/tod" />
+
+                        <LinearLayout
+                            android:id="@+id/viewchap2"
+                            android:layout_width="266dp"
+                            android:layout_height="157dp"
+                            android:layout_below="@id/imageView2"
+                            android:layout_gravity="bottom"
+                            android:layout_marginStart="20dp"
+                            android:background="@android:color/holo_orange_dark"
+                            android:orientation="vertical"
+                            android:paddingStart="40sp"
+                            tools:ignore="ObsoleteLayoutParam,RtlSymmetry">
+
+                            <TextView
+                                android:id="@+id/textchap2_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="63dp"
+                                android:text="@string/intitule2"
+                                android:textColor="@color/white"
+                                android:textSize="30sp" />
+
+                            <TextView
+                                android:id="@+id/textchap2_2"
+                                android:layout_width="196dp"
+                                android:layout_height="0dp"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_weight="1"
+                                android:text="@string/title2"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic"
+                                tools:ignore="TextSizeCheck" />
+
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:id="@+id/textchap2_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="159dp"
+                        android:paddingStart="10dp"
+                        android:paddingTop="15dp"
+                        android:paddingEnd="20dp">
+
+                        <TextView
+                            android:id="@+id/textchap2_4"
+                            android:layout_width="320dp"
+                            android:layout_height="146dp"
+                            android:text="@string/texte2"
+                            android:textAlignment="center"
+                            android:textColor="#292727"
+                            android:textSize="20sp"
+                            android:textStyle="italic"
+                            tools:ignore="TextSizeCheck" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/learnchap2"
+                        android:layout_width="324dp"
+                        android:layout_height="32dp"
+                        android:paddingStart="100dp"
+                        tools:ignore="RtlSymmetry">
+
+                        <TextView
+                            android:id="@+id/textViewchap2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/learnmore"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            tools:ignore="TextSizeCheck,VisualLintBounds" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lineargo3"
+                    android:layout_width="match_parent"
+                    android:layout_height="565dp"
+                    android:orientation="vertical"
+                    android:paddingTop="6dp"
+                    tools:ignore="VisualLintBounds"
+                    tools:layout_editor_absoluteX="-3dp"
+                    tools:layout_editor_absoluteY="275dp">
+
+                    <FrameLayout
+                        android:layout_width="321dp"
+                        android:layout_height="321dp">
+
+                        <ImageView
+                            android:id="@+id/imageViewchap3"
+                            android:layout_width="315dp"
+                            android:layout_height="267dp"
+                            android:background="@drawable/young"
+                            android:contentDescription="@string/tod" />
+
+                        <LinearLayout
+                            android:id="@+id/viewchap3"
+                            android:layout_width="266dp"
+                            android:layout_height="157dp"
+                            android:layout_below="@id/imageView2"
+                            android:layout_gravity="bottom"
+                            android:layout_marginStart="20dp"
+                            android:background="@color/vert"
+                            android:orientation="vertical"
+                            android:paddingStart="40dp"
+                            tools:ignore="ObsoleteLayoutParam,RtlSymmetry">
+
+                            <TextView
+                                android:id="@+id/textViewchap3_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="63dp"
+                                android:text="@string/intitule3"
+                                android:textColor="@color/white"
+                                android:textSize="30sp" />
+
+                            <TextView
+                                android:id="@+id/textViewchap3_2"
+                                android:layout_width="196dp"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:text="@string/title3"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic"
+                                tools:ignore="TextSizeCheck" />
+
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:id="@+id/textchap3"
+                        android:layout_width="match_parent"
+                        android:layout_height="159dp"
+                        android:paddingStart="10dp"
+                        android:paddingTop="15dp"
+                        android:paddingEnd="20dp">
+
+                        <TextView
+                            android:id="@+id/textViewchap3_3"
+                            android:layout_width="320dp"
+                            android:layout_height="146dp"
+                            android:text="@string/texte3"
+                            android:textAlignment="center"
+                            android:textColor="#292727"
+                            android:textSize="20sp"
+                            android:textStyle="italic"
+                            tools:ignore="TextSizeCheck" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/learn3"
+                        android:layout_width="324dp"
+                        android:layout_height="32dp"
+                        android:paddingStart="100dp"
+                        tools:ignore="RtlSymmetry">
+
+                        <TextView
+                            android:id="@+id/textViewchap3_4"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/learnmore"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            tools:ignore="TextSizeCheck,VisualLintBounds" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="55dp">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="356dp"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:text="@string/exercices"
+                    android:textAlignment="center"
+                    android:textColor="@color/red"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    tools:ignore="TextSizeCheck" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="349dp"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="30dp"
+                    android:paddingRight="30dp"
+                    android:text="@string/explications"
+                    android:textAlignment="center"
+                    android:textColor="@color/gris"
+                    android:textSize="18sp"
+                    tools:ignore="RtlSymmetry,TextSizeCheck" />
+
+                <!--<LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:background="@color/white"
+                        android:backgroundTint="@android:color/tertiary_text_light"
+                        android:orientation="vertical"
+                        android:paddingStart="20dp"
+                        android:paddingBottom="20dp"
+                        tools:ignore="RtlSymmetry">
+
+                        <TextView
+                            android:id="@+id/textViewchap1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="78dp"
+                            android:background="@android:color/tertiary_text_light"
+                            android:backgroundTint="@android:color/tertiary_text_light"
+                            android:paddingTop="20dp"
+                            android:paddingBottom="10dp"
+                            android:text="@string/intitule"
+                            android:textColor="@color/white"
+                            android:textSize="25sp" />
+
+                        <ImageButton
+                            android:id="@+id/imageButtonchap1"
+                            android:layout_width="137dp"
+                            android:layout_height="66dp"
+                            android:backgroundTint="@android:color/tertiary_text_light"
+                            android:contentDescription="@string/go"
+                            app:srcCompat="@drawable/exercices" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:background="@color/white"
+                        android:backgroundTint="@android:color/tertiary_text_light"
+                        android:orientation="vertical"
+                        android:paddingStart="20dp"
+                        android:paddingBottom="20dp"
+                        tools:ignore="RtlSymmetry">
+
+                        <TextView
+                            android:id="@+id/textViewchap22"
+                            android:layout_width="wrap_content"
+                            android:layout_height="78dp"
+                            android:background="@android:color/tertiary_text_light"
+                            android:backgroundTint="@android:color/tertiary_text_light"
+                            android:paddingTop="20dp"
+                            android:paddingBottom="10dp"
+                            android:text="@string/intitule2"
+                            android:textColor="@color/white"
+                            android:textSize="25sp" />
+
+                        <ImageButton
+                            android:id="@+id/imageButtonchap2"
+                            android:layout_width="137dp"
+                            android:layout_height="66dp"
+                            android:backgroundTint="@android:color/tertiary_text_light"
+                            android:contentDescription="@string/go"
+                            app:srcCompat="@drawable/exercices" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:background="@color/white"
+                        android:backgroundTint="@android:color/tertiary_text_light"
+                        android:orientation="vertical"
+                        android:paddingStart="20dp"
+                        android:paddingBottom="20dp"
+                        tools:ignore="RtlSymmetry">
+
+                        <TextView
+                            android:id="@+id/textViewchap3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="78dp"
+                            android:background="@android:color/tertiary_text_light"
+                            android:backgroundTint="@android:color/tertiary_text_light"
+                            android:paddingTop="20dp"
+                            android:paddingBottom="10dp"
+                            android:text="@string/intitule3"
+                            android:textColor="@color/white"
+                            android:textSize="25sp" />
+
+                        <ImageButton
+                            android:id="@+id/imageButtonchap3"
+                            android:layout_width="137dp"
+                            android:layout_height="66dp"
+                            android:backgroundTint="@android:color/tertiary_text_light"
+                            android:contentDescription="@string/go"
+                            app:srcCompat="@drawable/exercices" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:background="@color/white"
+                        android:backgroundTint="@android:color/tertiary_text_light"
+                        android:orientation="vertical"
+                        android:paddingStart="20dp"
+                        android:paddingBottom="20dp"
+                        tools:ignore="RtlSymmetry">
+
+                        <TextView
+                            android:id="@+id/textViewchap4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="78dp"
+                            android:background="@android:color/tertiary_text_light"
+                            android:backgroundTint="@android:color/tertiary_text_light"
+                            android:paddingTop="20dp"
+                            android:paddingBottom="10dp"
+                            android:text="@string/intitule4"
+                            android:textColor="@color/white"
+                            android:textSize="25sp" />
+
+                        <ImageButton
+                            android:id="@+id/imageButtonchap4"
+                            android:layout_width="137dp"
+                            android:layout_height="66dp"
+                            android:backgroundTint="@android:color/tertiary_text_light"
+                            android:contentDescription="@string/go"
+                            app:srcCompat="@drawable/exercices" />
+
+                    </LinearLayout>
+                </LinearLayout>-->
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycler1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
