@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -26,7 +27,7 @@ public class Onglet3 extends Fragment {
     //PDFView pdfView;
     //final List<String> pf=new ArrayList<>();
 
-
+    Button bout;
 
 
 
@@ -34,6 +35,14 @@ public class Onglet3 extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle saveInstanceState){
         View view= inflater.inflate(R.layout.fragment_trois,container,false);
+        bout=view.findViewById(R.id.button1);
+        bout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(getContext(),Inf111.class);
+                startActivity(intent);
+            }
+        });
         return view;
     }
 }

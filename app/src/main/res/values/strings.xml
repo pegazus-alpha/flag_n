@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">FLAG</string>
     <string name="todo">position</string>
+
     <string name="cours_de_pleine_conscience">COURS DE PLEINE CONSCIENCE</string>
     <string-array name="filiere">
         <item>INFORMATIQUE</item>
@@ -12,4 +13,43 @@
         <item>L2</item>
         <item>L3</item>
     </string-array>
+    <!-- valeur augmante par auriane-->
+    <string name="more">EN SAVOIR PLUS</string>
+    <string name="learnmore">LEARN MORE</string>
+    <string name="discussion">FLAG discussion Whatsapp</string>
+    <string name="page111">INF 111</string>
+    <string name="go">Where to go now</string>
+    <string name="texte">L Algorithmique designe la science qui étudie les algorithmes. Un algorithme quant à lui est un language de description d etapes à suivre pour la…</string>
+    <string name="title">INTRODUCTION A L ALGORITHMIQUE</string>
+    <string name="texte2">Avant de commencer à écrire un programme, il est primordial de connaitre les bases de l\'algorithmique qui sont des conventions à suivre pour écrire un programme quelconque</string>
+    <string name="title2">LES BASES DE L\'ALGORITHMIQUE</string>
+    <string name="texte3">Les opérateurs peuvent etre définies comme étant tout ce qui permet d\'associer plusieurs variables pour en aire une expression </string>
+    <string name="title3">LES OPERATIONS EN ALGORITHMIQUE</string>
+    <string name="intitule">CHAPITRE 1</string>
+    <string name="intitule2">CHAPITRE 2</string>
+    <string name="intitule3">CHAPITRE 3</string>
+    <string name="intitule4">CHAPITRE 4</string>
+    <string name="encardreurs">Pour un meilleur suivie, une meilleure organisation  et pour plus d explication veuillez rejoindre la grande communauté d etudiants FLAG sur whatsapp où vous pourez etre soutenue par les encadreurs FLAG</string>
+    <string name="flag_discussion_whatsapp">FLAG discussion Whatsapp</string>
+    <string name="hi">TODO</string>
+    <string name="to">TODO</string>
+    <string name="consulte">CONSULTER DES</string>
+    <string name="act">ACTUALITES</string>
+    <string name="actu">A propos des informations d\'actualité</string>
+    <string name="consulter">Les différentes informations ci dessous sont tirées exclusivement de communiqués officiels de l\'université de Douala signées par les membres de l\'administration en vigueur</string>
+    <string name="he">TODO</string>
+    <string name="explications">Les exercices sont très important dans les revisions car ce sont eux qui nous premettent de comprendre qu\'on a bien assimiler le cours ou de l\'assimiler correcement dans le cas contraire </string>
+    <string name="exercices">Aller tout droit aux exercices</string>
+    <string name="tod">TODO</string>
+    <string name="encardreur">Pour un meilleur suivie, ue meilleure organisation et pour plus d\'explication veuillez rejoindre la grande communauté d\'étudiants FLAG sur whatsapp où vous pourez etre soutenue par les encadreurs FLAG</string>
+    <string name="ke">TODO</string>
+    <string name="read">READ MORE</string>
+    <string name="info">INFORMATIONS</string>
+    <string name="infos">Mi sit amet Lauris commode quits imper-diet mass incident nun. Dui ut ornate lectures sit. Amputate mi sit amet Lauris commode</string>
+    <string name="profil">PROFIL</string>
+    <string name="nomu">NOM UTILISATEUR:</string>
+    <string name="adres">ADRESSE EMAIL:</string>
+    <string name="niveau">NIVEAU:</string>
+    <string name="nivea">NIVEAU:</string>
+
 </resources>

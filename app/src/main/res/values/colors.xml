@@ -13,6 +13,7 @@
     <color name="red">#FF3727</color>
     <color name="red2">#E63223</color>
     <color name="vert">#47F025</color>
+    <color name="blue">#0515A5</color>
     <color name="bleu">#2990BB</color>
     <color name="gris">#1f1f1f</color>
     <color name="orange">#FFBD57</color>
@@ -22,4 +23,5 @@
     <color name="vert2">#66DFE0</color>
     <color name="casse">#F5F5F5</color>
     <color name="bl">#3F48CC</color>
+    <color name="nv">#d6dfee</color>
 </resources>

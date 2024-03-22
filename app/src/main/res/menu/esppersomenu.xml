@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/me1"
+        android:icon="@android:drawable/ic_menu_today"
+        android:title="Programme de cours" />
+    <item
+        android:id="@+id/me2"
+        android:icon="@android:drawable/ic_dialog_dialer"
+        android:title="Presentation des matieres" />
+    <item
+        android:id="@+id/me3"
+        android:icon="@drawable/utilisateur"
+        android:title="Profil" />
+
+</menu>
